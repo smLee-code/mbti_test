@@ -1,0 +1,54 @@
+/* 부모 컨테이너에 Flexbox 적용 */
+.Answer {
+    display: flex; /* 가로 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    gap: 10px; /* 버튼 간격 */
+    padding: 5px 0px 10px 0px;
+    background-color: #ffffff;
+}
+  
+  /* 숨겨진 라디오 버튼 */
+.Answer input[type="radio"] {
+    display: none;
+}
+  
+  /* 라벨 기본 스타일 */
+.Answer label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px; /* 크기 조정 */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem; /* 텍스트 크기 축소 */
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: var(--button-color, #fff); /* CSS 변수 */
+    color: var(--text-color, #000);
+    border-color: var(--border-color, #ccc);
+}
+  
+  
+/* 선택된 상태 */
+.Answer input[type="radio"]:checked + label {
+    border-color: var(--border-color, #007bff);
+    background-color: var(--active-color, #007bff);
+    color: var(--active-text-color ,#fff);
+}
+
+/* 선택되지 않은 상태 + 마우스 올림 */
+.Answer input[type="radio"] + label:hover {
+    border-color: var(--border-color, #007bff);
+    background-color: var(--active-color, #007bff);
+    color: var(--active-text-color ,#fff);
+}
+
+
+/* 선택되지 않은 상태 */
+.Answer input[type="radio"] + label {
+    background-color: white;
+    color: rgb(161, 161, 161);
+}
+
+

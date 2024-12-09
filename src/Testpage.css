@@ -1,0 +1,27 @@
+.Question-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+
+.Question-div {
+    width: 50%;
+}
+
+
+.Const-logo {
+    text-align: left;
+    padding: 30px 30px;
+    background-color: #f0f0f0;
+    color:#759aff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Const-logo a {
+    color:#759aff;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.Main {
+    display: flex; /* 컨테이너를 Flexbox로 설정 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    background: black; /* 배경색을 검은색으로 설정 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+    width: 100vw; /* 뷰포트의 전체 너비 */
+    height: 100vh; /* 뷰포트의 전체 높이 */
+    margin: 0; /* 기본 마진 제거 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+/* 추가 스타일: 필요 시 사용할 수 있음 */
+.title h1 {
+    font-size: 3rem; /* 제목의 크기를 조정 */
+    color: white;
+}
+
+.title a {
+    font-size: 2.5rem; /* 제목의 크기를 조정 */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.title h2 {
+    font-size: 2.5rem; /* 제목의 크기를 조정 */
+    color: white;
+}
